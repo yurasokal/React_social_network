@@ -1,9 +1,9 @@
 import React from 'react';
-import s from './Dialogs.module.css';
+import s from './Preikestolen.module.css';
 import {NavLink} from "react-router-dom";
 
 
-const Dialogs = (props) => {
+const Preikestolen = (props) => {
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
@@ -35,4 +35,4 @@ const Dialogs = (props) => {
     )
 }
 
-export default Dialogs;
+export default Preikestolen;
