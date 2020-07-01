@@ -8,7 +8,7 @@ const Dialogs = (props) => {
     let dialogs = [
         {id: 1, name: 'Olga Geirangerfjord'},
         {id: 2, name: 'Nazar Trolltunga'},
-        {id: 3, name: 'Sergiy Kjerag'},
+        {id: 3, name: 'Serhiy Kjerag'},
         {id: 4, name: 'Yuriy Preikestolen'},
         {id: 5, name: 'Roman Trollstigen'},
         {id: 6, name: 'Ihor Lofoten'}
