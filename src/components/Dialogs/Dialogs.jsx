@@ -5,6 +5,7 @@ import DialogItem from './DialogItem/DialogItem';
 import Message from './Message/Message';
 import { updateNewMessageBodyCreator, sendMessageCreator } from '../../redux/dialogs-reducer';
 
+
 const Dialogs = (props) => {
 
     let state = props.store.getState().dialogsPage;
@@ -24,7 +25,7 @@ let onNewMessageChange = (event) => {
 }
 
     return (
-        <div className={s.dialogs}>
+        <div className={s.dialogs}> 
             <div className={s.dialogsItems}>
                 {dialogsElements}
             </div>
@@ -40,5 +41,6 @@ let onNewMessageChange = (event) => {
         </div>
     )
 }
+
 
 export default Dialogs;
