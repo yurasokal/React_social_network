@@ -12,13 +12,13 @@ const MyPostsContainer = (props) => {
     let onPostChange = (text) => {
         // props.updateNewPostText(text);
         let action = updateNewPostTextActionCreator(text);
-        props.dispatch(action);
+        props.store.dispatch(action);
     }
 
     return (<MyPosts updateNewPostText={onPostChange}
         addPost={addPost}
         posts={state.profilePage.posts}
-        updateNewPostText={state.profilePage.newPostText} />
+        newPostText={state.profilePage.newPostText} />
     );
 }
 
