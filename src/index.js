@@ -5,8 +5,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import StoreContext from './storeContext';
-import { Provider } from './storeContext'
+import { Provider } from 'react-redux';
 
 let rerenderEntireTree = (state) => {
     ReactDOM.render(
