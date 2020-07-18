@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = {
+            name: 'google.com',
+            protocol: 'https',
+            maxStudentsCount: 10,
+            isOnline: true,
+            students: ['Slavek', 'valera', 'olya'],
+            classroom: {
+                teacher: {
+                    name: 'Anton',
+                    age: 18
+                }
+            }
+        }
+
+        b = {
+            ...a
+        };
+    a.classroom.teacher.name = "Andrew";
+  console.log(a);
+  console.log(b);
+
+        
+    </script>
+</body>
+</html>
