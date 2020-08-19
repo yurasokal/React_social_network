@@ -14,7 +14,7 @@ const ProfileInfo = (props) => {
                 src='https://img.112.international/original/2015/08/22/178581.jpg' alt='Lviv background logo' />
             </div>
             <div className={s.descriptionBlock}>
-                <img src={props.profile.photos.large} />
+                <img src={props.profile.photos.large} alt='profile '/>
                 ava + description
             </div>
         </div>
