@@ -3,7 +3,6 @@ import s from './Header.module.css';
 import { NavLink } from 'react-router-dom';
 
 const Header = (props) => {
-    debugger;
     return (
         <header className={s.header}>
             <img src='https://pbs.twimg.com/profile_images/1137096400863485952/YW6qjuI8_400x400.jpg' alt='Lviv logo' />
