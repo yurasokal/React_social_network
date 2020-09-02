@@ -3,7 +3,7 @@ import { Field } from 'redux-form';
 
 const LoginForm = (props) => {
     return (
-<form>
+<form onSubmit={props.handleSubmit}>
 <div>
     <Field placeholder={"Login"} component={"input"} name={"login"} />
 </div>
